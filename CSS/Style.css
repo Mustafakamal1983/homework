@@ -1,0 +1,279 @@
+ /* Global CSS */
+ * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+ }
+   section {
+   padding: 75px 0px;
+   }
+   p{
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 200;
+   }
+   .heading{
+    font-size: 35px;
+    line-height: 35px
+    letter spacing:1.5px
+   }
+   .underline{
+    border-top: 4px solid rgba(0, 0, 0, 0.192);
+    width: 7%;
+    margin: 6px auto;
+   }
+   .writing-part{
+    margin-bottom: 30px;
+   }
+   .box{
+    padding: 25px;
+   }
+   .sub-heading{
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 5px 0px;
+   }
+   .cstm-btn{
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    font-weight: 600;
+    font-style: 18px;
+    background-color: #17C2A4;
+   }
+ /* Layout */
+ .container {
+    width: 90%;
+    margin: auto;
+ }  
+ .row {
+      width: 100%;
+      float: left;
+ }
+ [class*="col-"] {
+  float: left;
+}
+ .col-1 {
+  width: 8.33%;
+}
+ .col-2 {
+  width: 16.66%;
+}
+ .col-3 
+ {width: 25%;
+}
+ .col-4 {
+  width: 33.33%;
+}
+ .col-5 {
+  width: 41.66%;
+}
+ .col-6 {
+  width: 50%;
+}
+ .col-7 {
+  width: 58.33%;
+}
+ .col-8 {
+  width: 66.66%;
+}
+ .col-9 {
+  width: 75%;
+}
+ .col-10 {
+  width: 83.33%;
+}
+ .col-11 {
+  width: 91.66%;
+}
+ .col-12 {
+  width: 100%;
+}
+
+ /* Header part */
+header {
+   background-color: #87509C;
+   color: white;
+   text-align: center;
+}
+nav{
+  padding: 20px 0px;
+}
+.logo-part{
+ text-align: left;
+}
+.menu-part{
+text-align: end;
+}
+.menu-part ul{
+padding: 5px 0px;
+}
+.menu-part li{
+display: inline-block;
+padding: 7px 10px;
+transition: case-in 0.5s;
+}
+.menu-part li:hover{
+  background-color: #1f1a1a28;
+  border-radius: 5px;
+}
+.menu-part li a{
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+}
+.hero-part{
+  padding: 100px 150px;
+}
+.hero-par h1{
+font-size: 40px;
+line-height: 40px;
+}
+.hero-part button {
+ 
+  background-color: #FF8844;
+  color: white;
+}
+
+/* service part */
+#service{
+ background-color:#209bff ;
+ color: white;
+ text-align: center;
+}
+#service.box img{
+height: 150px;
+}
+#Team{
+  background-color: #CFE4F3;
+  color: black;
+  text-align: center;
+}
+#Team.des/p1{
+  font-size: 20px;
+  line-height: 20px;
+  color: #0070EE;
+}
+p{
+  margin-top: 30px;
+}
+.team-icons{
+margin-top: 30px;
+}
+.team-icons i {
+ background-color: #c5d2dc63;
+margin: auto;
+ color: black;
+ padding: 25px;
+ border-radius:20px;
+ width: 20px;
+}
+.team-icons i:hover{
+  background-color:#c5d2dc5e;
+  color:black ;
+  border-radius:20px;
+  margin: auto;
+  width: 20px;
+
+ 
+}
+ #skill{
+  background-color: aliceblue;
+  color: black;
+  text-align: center;
+ } 
+#portfolio{
+  background-color: #FFF65D;
+ color: black;
+ text-align: center;
+}
+.potfolio-btn{
+  margin-top: 30px; 
+}
+.potfolio-btn:hover{
+  background-color: #07f1c652;
+  border-radius: 5px; 
+}
+.potfolio-btn a button{
+  background-color:rgba(0, 0, 0, 0.788);!important;
+  text-transform: uppercase;
+  padding:10px 30px; 
+}
+#portfolio button{
+  background-color: #17c25e;
+  padding: 10px 30px;
+}
+#About{
+  background-color: #ED1169;
+  color: white;
+  text-align: center;
+}
+#contact{
+  background-color: #1A48CC;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+form{
+  width: 50%;
+  margin: auto;
+}
+input textarea{
+  display: block;
+  padding: 10ppx 40px;
+  margin: 25px 20px;
+  color: white;
+}
+.form1-tex-part{
+width: 50%;
+float: left;
+
+}
+.form1-tex-part input{
+  width: 98%;
+background-color: #133AAB;
+color:white
+}
+.form1-email-part{
+width: 50%;
+float: left;
+}
+.form1-email-part input{
+  width: 98%;
+background-color:#133AAB;
+color: white;
+}
+textarea{
+ background-color: #133AAB;
+ width: 99%;
+margin-top: 20px;
+height: 80px;
+}
+.tex input{
+  padding: 15px 50px;
+  margin: auto;
+  background-color: #133AAB;
+  border-radius: 5px;
+}
+.contact button{
+  background-color: #17C2A4;
+  color: white;
+}
+.footer-part {
+background-color:rgba(20, 20, 129, 0.795);
+
+border: none;
+color: #FFFFFF;
+padding: 15px 32px;
+display: inline-block;
+font-size: 16px;
+}
+
+
